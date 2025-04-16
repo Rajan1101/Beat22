@@ -1,0 +1,96 @@
+.container {
+  .loader-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 5px solid rgba(255, 255, 255, 0.3);
+      border-top: 5px solid #fff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  .explore {
+    padding: 30px 20px 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .heading-text {
+      font-family: inter-medium, sans-serif !important;
+      font-weight: 500;
+      font-size: 1.5rem;
+      line-height: 29px;
+    }
+
+    .refresh-button {
+      width: 101px;
+      height: 39px;
+      font-family: inter-medium, sans-serif !important;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 19px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #d49cff;
+      border-radius: 42px;
+      border: 1px solid #d094ff;
+      cursor: pointer;
+    }
+  }
+
+  .diff-beat-filter {
+    display: flex;
+    gap: 1rem;
+
+    .filter-button {
+      padding: 0.5rem 1.2rem;
+      font-size: 0.77rem;
+      cursor: pointer;
+      background: #262626;
+      border: 1px solid #383838;
+      border-radius: 32px;
+      transition: background-color 0.3s, color 0.3s;
+
+      &.first-button.active,
+      &.first-button:hover {
+        background: linear-gradient(110deg, #7000ff 36.5%, #8f00ff 93.9%);
+      }
+
+      &.second-button.active,
+      &.second-button:hover {
+        background: linear-gradient(90deg, #093dff -54.02%, #60c8ff 137.35%);
+      }
+
+      &.third-button.active,
+      &.third-button:hover {
+        background: linear-gradient(90deg, #6027fb 0%, #f733dd 100%);
+      }
+
+      &.forth-button.active,
+      &.forth-button:hover {
+        background: linear-gradient(90deg, #ff7e15 0%, #ffca51 100%);
+      }
+    }
+  }
+}

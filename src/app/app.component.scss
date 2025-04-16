@@ -1,0 +1,58 @@
+.container {
+  padding: 0 50px;
+
+  app-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #1e1e1e;
+  }
+
+  .beat-heading {
+    position: sticky;
+    top: 66px;
+    z-index: 999;
+    background-color: #1e1e1e;
+
+    .heading-text {
+      width: 46px;
+      font-size: 0.875rem;
+      padding: 15px 0;
+      font-family: Inter, sans-serif;
+      text-transform: uppercase;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: all 0.3s ease;
+        transform: translateX(-50%);
+      }
+
+      &:hover::after {
+        width: 100%;
+      }
+    }
+
+    .border {
+      background: linear-gradient(
+        90deg,
+        rgba(167, 167, 167, 0) 4.17%,
+        rgba(167, 167, 167, 0.5) 28.65%,
+        rgba(167, 167, 167, 0.5) 69.27%,
+        rgba(167, 167, 167, 0) 100%
+      );
+      border-radius: 1px;
+      width: 100%;
+      padding: 0.4px;
+      transition: all 0.5s;
+    }
+  }
+}

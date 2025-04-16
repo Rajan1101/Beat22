@@ -1,0 +1,114 @@
+header {
+  color: #fff;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e1e1e;
+
+  .logo-search {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    .logo {
+      cursor: pointer;
+      width: 112px;
+      height: 24px;
+      max-width: 126px;
+      max-height: 26px;
+      margin-bottom: 5px;
+    }
+
+    .search-area {
+      margin: 0 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #303030;
+      border: 0.75px solid #616161;
+      border-radius: 6px;
+
+      input,
+      select {
+        padding: 0.5rem 1.5rem;
+        border-radius: 0.375rem;
+        border: none;
+      }
+
+      input {
+        flex: 1;
+        background: #303030;
+
+        &::placeholder {
+          color: #888;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+
+      select {
+        background: #3f3f3f;
+        color: #fff;
+        cursor: pointer;
+
+        option {
+          background: #3f3f3f;
+          cursor: pointer;
+        }
+      }
+    }
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+
+    button {
+      font-size: 0.875rem;
+      cursor: pointer;
+      background: none;
+      border: none;
+      color: white;
+      padding: 0.5rem 1rem;
+      transition: color 0.3s, background-color 0.3s;
+
+      &.sign-in {
+        position: relative;
+        overflow: hidden;
+
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          width: 0;
+          height: 2px;
+          background: #fff;
+          transition: all 0.3s ease;
+          transform: translateX(-50%);
+        }
+
+        &:hover::after {
+          width: 100%;
+        }
+      }
+
+      &.primary {
+        background: linear-gradient(110deg, #7000ff 36.5%, #8f00ff 93.9%);
+        border-radius: 0.375rem;
+
+        &:hover {
+          background-color: #7326c8;
+        }
+      }
+    }
+  }
+}

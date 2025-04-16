@@ -1,0 +1,45 @@
+<div class="record-list">
+  <div class="record-item" *ngFor="let record of data">
+    <div class="record-left">
+      <button class="play-button">
+        <i class="fa fa-play"></i>
+      </button>
+      <img [src]="record.image" alt="Record Image" class="record-image" />
+      <div class="record-details">
+        <div class="record-title">{{ record.title }}</div>
+        <div class="record-info">
+          <span>{{ record.genre }}</span>
+          <span class="bpm-key">
+            <img class="beat-img" src="https://beat22.com/assets/imgs/sub-menu/beat-play.png" alt="genre_image">{{ record.bpm }} BPM</span>
+          <span class="bpm-key">
+            <img class="beat-img" src="https://beat22.com/assets/imgs/sub-menu/audio-icon.png" alt="beat_image">{{ record.key }}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="record-right">
+      <div class="tags">
+        <span class="tag" *ngFor="let tag of record.tags">{{ tag }}</span>
+      </div>
+
+      <div class="price">
+        <i class="fa fa-shopping-cart"></i> ₹{{ record.price }}
+      </div>
+      <div class="more-options-container">
+        <button class="more-options" (click)="toggleOptions(record)">
+          <i class="fa fa-ellipsis-v"></i>
+        </button>
+        <div class="options-dropdown" *ngIf="record.showOptions">
+          <div class="option-item">
+            <i class="fa fa-share-alt"></i> Share
+          </div>
+          <div class="option-item">
+            <i class="fa fa-download"></i> Download
+          </div>
+          <div class="option-item">
+            <i class="fa fa-heart"></i> Favorite
+          </div>
+        </div>
+    </div>
+  </div>
+</div>

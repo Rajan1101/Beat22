@@ -1,0 +1,792 @@
+{
+  "playlists": [
+    {
+      "title": "Trending",
+      "beatSerialNumbers": [
+        188794, 186942, 188476, 186959, 188549, 188767, 188258, 188136, 186944,
+        187538
+      ],
+      "authorName": "Beat22",
+      "isOfficialPlaylist": true,
+      "isPublic": true,
+      "urlSlug": "trending",
+      "updatedAt": "2025-04-15T09:39:37.834Z",
+      "category": "hiphop",
+      "beats": [
+        {
+          "_id": "67f56078367f6760c8d6c516",
+          "serial_number": 188794,
+          "title": "STEPPA",
+          "category": "beat",
+          "mood": ["bouncy", "bright", "cheerful"],
+          "genre": "hip_hop",
+          "key": "c_sharp__minor",
+          "tempo": 100,
+          "instrument": ["flute"],
+          "tag": ["MC STAN", "YUNG DSA", "SAMBATA"],
+          "preview": "https://illpeoplemusic-v2-beats-dev.s3.ap-south-1.amazonaws.com/user-66eee82e3ca4ee59a03150e0/beat-188794/preview.mp3",
+          "cover_picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/beats/user-66eee82e3ca4ee59a03150e0/beat-188794/cover-picture.jpg",
+          "is_used_sample": false,
+          "owner": "66eee82e3ca4ee59a03150e0",
+          "play_count": 334,
+          "disable_mp3_download": false,
+          "allow_negotiations": false,
+          "used_samples": [],
+          "id": "67f56078367f6760c8d6c516",
+          "created_by": {
+            "_id": "66eee82e3ca4ee59a03150e0",
+            "allow_negotiations": false,
+            "handle": "@sahiltaak"
+          },
+          "producer": {
+            "store": {
+              "general": { "name": "Taak" },
+              "brand": {
+                "picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/images/brands/5d0aabdc-f2b9-456d-ab4f-63381c1f4a91.jpg"
+              }
+            },
+            "_id": "66ef9bc73ca4ee59a032f0a3",
+            "user": "66eee82e3ca4ee59a03150e0",
+            "is_verfied": false,
+            "tiers": ["tier0", "tier2"]
+          },
+          "prices": [
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 10,
+                "master_right": 10
+              },
+              "_id": "67f56078367f6760c8d6c51a",
+              "beat": "67f56078367f6760c8d6c516",
+              "licence": "61ae8d9596a68cd4a8173d58",
+              "regular": 2999,
+              "final_price": 2999
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 10,
+                "master_right": 10
+              },
+              "_id": "67f56078367f6760c8d6c518",
+              "beat": "67f56078367f6760c8d6c516",
+              "licence": "61ae8d9596a68cd4a8173d55",
+              "regular": 500,
+              "final_price": 500,
+              "number_of_recordings": 1,
+              "licence_period_in_year": 1
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 10,
+                "master_right": 10
+              },
+              "_id": "67f56078367f6760c8d6c519",
+              "beat": "67f56078367f6760c8d6c516",
+              "licence": "61ae8d9596a68cd4a8173d56",
+              "regular": 1499,
+              "final_price": 1499,
+              "number_of_recordings": 1,
+              "licence_period_in_year": 1
+            }
+          ],
+          "available_coupons": []
+        },
+        {
+          "_id": "67e285af9418f1ef047d69d1",
+          "serial_number": 186942,
+          "title": "Aatank",
+          "category": "switch_beat",
+          "mood": ["angry", "aggressive", "bouncy"],
+          "genre": "trap",
+          "key": "f__sharp_ minor",
+          "tempo": 145,
+          "instrument": [
+            "synthesizer",
+            "synth_bass",
+            "modular_synthesizers",
+            "synthesizer_modules"
+          ],
+          "tag": ["hanumankind ", "experimental", "beat switch"],
+          "preview": "https://illpeoplemusic-v2-beats-dev.s3.ap-south-1.amazonaws.com/user-66cd5b10ffc8f72128b3691f/beat-186942/preview.mp3",
+          "cover_picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/beats/user-66cd5b10ffc8f72128b3691f/beat-186942/cover-picture.jpg",
+          "is_used_sample": false,
+          "owner": "66cd5b10ffc8f72128b3691f",
+          "play_count": 1013,
+          "disable_mp3_download": false,
+          "allow_negotiations": false,
+          "used_samples": [],
+          "id": "67e285af9418f1ef047d69d1",
+          "created_by": {
+            "_id": "66cd5b10ffc8f72128b3691f",
+            "allow_negotiations": true,
+            "handle": "@prodby_shrishti"
+          },
+          "producer": {
+            "store": {
+              "general": { "name": "prodby_shrishti" },
+              "brand": {
+                "picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/images/brands/7f1a182e-b789-4777-9864-e1f31122243f.jpg"
+              }
+            },
+            "_id": "66d3d254ffc8f72128c53bb4",
+            "user": "66cd5b10ffc8f72128b3691f",
+            "is_verfied": false,
+            "tiers": ["tier0", "tier2"]
+          },
+          "prices": [
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 30,
+                "master_right": 30
+              },
+              "_id": "67e285af9418f1ef047d69d3",
+              "beat": "67e285af9418f1ef047d69d1",
+              "licence": "61ae8d9596a68cd4a8173d55",
+              "regular": 999,
+              "final_price": 999,
+              "number_of_recordings": 4,
+              "licence_period_in_year": 3
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 20,
+                "master_right": 30
+              },
+              "_id": "67e285af9418f1ef047d69d5",
+              "beat": "67e285af9418f1ef047d69d1",
+              "licence": "61ae8d9596a68cd4a8173d58",
+              "regular": 9999,
+              "final_price": 9999
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 30,
+                "master_right": 30
+              },
+              "_id": "67e285af9418f1ef047d69d4",
+              "beat": "67e285af9418f1ef047d69d1",
+              "licence": "61ae8d9596a68cd4a8173d56",
+              "regular": 1999,
+              "final_price": 1999,
+              "number_of_recordings": 4,
+              "licence_period_in_year": 3
+            }
+          ],
+          "available_coupons": []
+        },
+        {
+          "_id": "67f26a441a259fb51e1bfdb5",
+          "serial_number": 188476,
+          "title": "SIDHU TYPE BEAT",
+          "category": "beat",
+          "mood": ["aggressive", "dark", "dramatic"],
+          "genre": "hip_hop",
+          "key": "g_sharp__minor",
+          "tempo": 97,
+          "instrument": [
+            "choir",
+            "piano",
+            "synth_bass",
+            "strings",
+            "pads",
+            "drum_kit",
+            "electric_keyboard"
+          ],
+          "tag": ["Sidhu type beat", "Rap", "Dark"],
+          "preview": "https://illpeoplemusic-v2-beats-dev.s3.ap-south-1.amazonaws.com/user-67840a95d5d63f17ce11376c/beat-188476/preview.mp3",
+          "cover_picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/beats/user-67840a95d5d63f17ce11376c/beat-188476/cover-picture.jpg",
+          "is_used_sample": false,
+          "owner": "67840a95d5d63f17ce11376c",
+          "play_count": 276,
+          "disable_mp3_download": true,
+          "allow_negotiations": false,
+          "used_samples": [],
+          "id": "67f26a441a259fb51e1bfdb5",
+          "created_by": {
+            "_id": "67840a95d5d63f17ce11376c",
+            "allow_negotiations": false,
+            "handle": "@hustler_music"
+          },
+          "producer": {
+            "store": {
+              "general": { "name": "HUSTLER MUSIC" },
+              "brand": {
+                "picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/images/brands/1d7d35e2-50d6-4302-81c6-b7b8f3672812.jpg"
+              }
+            },
+            "_id": "6784f948d5d63f17ce13eb62",
+            "user": "67840a95d5d63f17ce11376c",
+            "is_verfied": false,
+            "tiers": ["tier0"]
+          },
+          "prices": [
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 10,
+                "master_right": 10
+              },
+              "_id": "67f26a441a259fb51e1bfdb7",
+              "beat": "67f26a441a259fb51e1bfdb5",
+              "licence": "61ae8d9596a68cd4a8173d55",
+              "regular": 500,
+              "final_price": 500,
+              "number_of_recordings": 1,
+              "licence_period_in_year": 10
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 10,
+                "master_right": 10
+              },
+              "_id": "67f26a441a259fb51e1bfdb8",
+              "beat": "67f26a441a259fb51e1bfdb5",
+              "licence": "61ae8d9596a68cd4a8173d56",
+              "regular": 999,
+              "final_price": 999,
+              "number_of_recordings": 1,
+              "licence_period_in_year": 10
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 10,
+                "master_right": 10
+              },
+              "_id": "67f26a7c1a259fb51e1bfef2",
+              "beat": "67f26a441a259fb51e1bfdb5",
+              "final_price": 2000,
+              "licence": "61ae8d9596a68cd4a8173d58",
+              "regular": 2000
+            }
+          ],
+          "available_coupons": []
+        },
+        {
+          "_id": "67e29d799418f1ef047de3dd",
+          "serial_number": 186959,
+          "title": "Flowers of violence",
+          "category": "beat",
+          "mood": ["bouncy", "bright", "cheerful"],
+          "genre": "trap",
+          "key": "ab_major",
+          "tempo": 76,
+          "instrument": ["drum_kit"],
+          "tag": ["hip hop", "trap", "melodic rnb"],
+          "preview": "https://illpeoplemusic-v2-beats-dev.s3.ap-south-1.amazonaws.com/user-67729caad017cac045d22c16/beat-186959/preview.mp3",
+          "cover_picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/beats/user-67729caad017cac045d22c16/beat-186959/cover-picture.jpg",
+          "is_used_sample": false,
+          "owner": "67729caad017cac045d22c16",
+          "play_count": 602,
+          "disable_mp3_download": false,
+          "allow_negotiations": false,
+          "used_samples": [],
+          "id": "67e29d799418f1ef047de3dd",
+          "created_by": {
+            "_id": "67729caad017cac045d22c16",
+            "allow_negotiations": false,
+            "handle": "@neorabeats"
+          },
+          "producer": {
+            "store": {
+              "general": { "name": "Neorabeats" },
+              "brand": {
+                "picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/images/brands/12229618-36b4-43e5-a105-62ceeee1e8e7.jpg"
+              }
+            },
+            "_id": "6772a040d017cac045d239f7",
+            "user": "67729caad017cac045d22c16",
+            "is_verfied": false,
+            "tiers": ["tier0", "tier2"]
+          },
+          "prices": [
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 20,
+                "master_right": 20
+              },
+              "_id": "67e29d799418f1ef047de3df",
+              "beat": "67e29d799418f1ef047de3dd",
+              "licence": "61ae8d9596a68cd4a8173d55",
+              "regular": 500,
+              "final_price": 500,
+              "number_of_recordings": 5,
+              "licence_period_in_year": 30
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 20,
+                "master_right": 20
+              },
+              "_id": "67e29d799418f1ef047de3e0",
+              "beat": "67e29d799418f1ef047de3dd",
+              "licence": "61ae8d9596a68cd4a8173d56",
+              "regular": 699,
+              "final_price": 699,
+              "number_of_recordings": 5,
+              "licence_period_in_year": 30
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 20,
+                "master_right": 20
+              },
+              "_id": "67e29d799418f1ef047de3e1",
+              "beat": "67e29d799418f1ef047de3dd",
+              "licence": "61ae8d9596a68cd4a8173d58",
+              "regular": 999,
+              "final_price": 999
+            }
+          ],
+          "available_coupons": []
+        },
+        {
+          "_id": "67f2e2d91a259fb51e1e3a35",
+          "serial_number": 188549,
+          "title": "NEVER FOLD",
+          "category": "beat",
+          "mood": ["bright", "trippy", "calm"],
+          "genre": "hip_hop",
+          "key": "c_minor",
+          "tempo": 95,
+          "instrument": [
+            "brass",
+            "bass_guitar",
+            "acoustic_guitar",
+            "piano",
+            "sitar",
+            "synth_bass",
+            "strings",
+            "other"
+          ],
+          "tag": ["Sidhu Moose Wal", "panjabi hip hop", "50 cents"],
+          "preview": "https://illpeoplemusic-v2-beats-dev.s3.ap-south-1.amazonaws.com/user-663335c17e6441273d6a6065/beat-188549/preview.mp3",
+          "cover_picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/beats/user-663335c17e6441273d6a6065/beat-188549/cover-picture.jpeg",
+          "is_used_sample": true,
+          "owner": "663335c17e6441273d6a6065",
+          "play_count": 264,
+          "disable_mp3_download": false,
+          "allow_negotiations": false,
+          "used_samples": [
+            {
+              "_id": "67f2e2d91a259fb51e1e3a3c",
+              "beat": "67f2e2d91a259fb51e1e3a35",
+              "artist_name": "illor808",
+              "is_royalty_free": true,
+              "artist_profile_link": "https://www.youtube.com/@ilir808"
+            }
+          ],
+          "id": "67f2e2d91a259fb51e1e3a35",
+          "created_by": {
+            "_id": "663335c17e6441273d6a6065",
+            "handle": "@ayoo_koushik",
+            "allow_negotiations": false
+          },
+          "producer": {
+            "store": {
+              "general": { "name": "Zynix" },
+              "brand": {
+                "picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/images/brands/7035de1b-a03e-42af-bb71-72b3f1adb1fa.jpg"
+              }
+            },
+            "_id": "663336337e6441273d6a66d4",
+            "user": "663335c17e6441273d6a6065",
+            "is_verfied": false,
+            "tiers": ["tier0", "tier2"]
+          },
+          "prices": [
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 10,
+                "master_right": 10
+              },
+              "_id": "67f2e2d91a259fb51e1e3a37",
+              "beat": "67f2e2d91a259fb51e1e3a35",
+              "licence": "61ae8d9596a68cd4a8173d55",
+              "regular": 500,
+              "final_price": 500,
+              "number_of_recordings": 4,
+              "licence_period_in_year": 4
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 10,
+                "master_right": 10
+              },
+              "_id": "67f2e2d91a259fb51e1e3a39",
+              "beat": "67f2e2d91a259fb51e1e3a35",
+              "licence": "61ae8d9596a68cd4a8173d58",
+              "regular": 2200,
+              "final_price": 2200
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 10,
+                "master_right": 10
+              },
+              "_id": "67f2e2d91a259fb51e1e3a38",
+              "beat": "67f2e2d91a259fb51e1e3a35",
+              "licence": "61ae8d9596a68cd4a8173d56",
+              "regular": 1000,
+              "final_price": 1000,
+              "number_of_recordings": 4,
+              "licence_period_in_year": 4
+            }
+          ],
+          "available_coupons": []
+        },
+        {
+          "_id": "67f52bbd367f6760c8d5e8aa",
+          "serial_number": 188767,
+          "title": "PAL PAL",
+          "category": "beat",
+          "mood": ["bouncy", "soothing", "soft_quiet"],
+          "genre": "rnb",
+          "key": "f__sharp_ minor",
+          "tempo": 105,
+          "instrument": [
+            "electric_guitar",
+            "acoustic_guitar",
+            "bass_guitar",
+            "flute",
+            "piano",
+            "bells",
+            "pads",
+            "strings"
+          ],
+          "tag": ["talha anjum", "sad beat", "bella"],
+          "preview": "https://illpeoplemusic-v2-beats-dev.s3.ap-south-1.amazonaws.com/user-6478a2d7ba9696372031ca98/beat-188767/preview.mp3",
+          "cover_picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/beats/user-6478a2d7ba9696372031ca98/beat-188767/cover-picture.jpg",
+          "is_used_sample": false,
+          "owner": "6478a2d7ba9696372031ca98",
+          "play_count": 202,
+          "disable_mp3_download": false,
+          "allow_negotiations": false,
+          "used_samples": [],
+          "id": "67f52bbd367f6760c8d5e8aa",
+          "created_by": {
+            "_id": "6478a2d7ba9696372031ca98",
+            "handle": "@prodxploit",
+            "allow_negotiations": true
+          },
+          "producer": {
+            "store": {
+              "general": { "name": "Xploit" },
+              "brand": {
+                "picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/images/brands/f4a8abfe-5e42-4f3b-8a76-86e898dc9dce.jpg"
+              }
+            },
+            "_id": "64fd76e20de18078faf29057",
+            "user": "6478a2d7ba9696372031ca98",
+            "is_verfied": false,
+            "tiers": ["tier0", "tier1"]
+          },
+          "prices": [
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 20,
+                "master_right": 20
+              },
+              "_id": "67f52bbd367f6760c8d5e8ac",
+              "beat": "67f52bbd367f6760c8d5e8aa",
+              "licence": "61ae8d9596a68cd4a8173d55",
+              "regular": 999,
+              "final_price": 999,
+              "number_of_recordings": 3,
+              "licence_period_in_year": 10
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 0,
+                "master_right": 0
+              },
+              "_id": "67f52bbd367f6760c8d5e8ae",
+              "beat": "67f52bbd367f6760c8d5e8aa",
+              "licence": "61ae8d9596a68cd4a8173d58",
+              "regular": 6499,
+              "final_price": 6499
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 20,
+                "master_right": 20
+              },
+              "_id": "67f52bbd367f6760c8d5e8ad",
+              "beat": "67f52bbd367f6760c8d5e8aa",
+              "licence": "61ae8d9596a68cd4a8173d56",
+              "regular": 2999,
+              "final_price": 2999,
+              "number_of_recordings": 3,
+              "licence_period_in_year": 10
+            }
+          ],
+          "available_coupons": []
+        },
+        {
+          "_id": "67ee897060cebe93b1ad08ea",
+          "serial_number": 188136,
+          "title": "Danger",
+          "category": "beat",
+          "mood": ["bouncy", "confident", "powerful"],
+          "genre": "indian",
+          "key": "d_minor",
+          "tempo": 101,
+          "instrument": ["sitar"],
+          "tag": ["Indian type bea", "sambata ", "yeda yung"],
+          "preview": "https://illpeoplemusic-v2-beats-dev.s3.ap-south-1.amazonaws.com/user-66cd5b10ffc8f72128b3691f/beat-188136/preview.mp3",
+          "cover_picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/beats/user-66cd5b10ffc8f72128b3691f/beat-188136/cover-picture.png",
+          "is_used_sample": false,
+          "owner": "66cd5b10ffc8f72128b3691f",
+          "play_count": 238,
+          "disable_mp3_download": false,
+          "allow_negotiations": false,
+          "used_samples": [],
+          "id": "67ee897060cebe93b1ad08ea",
+          "created_by": {
+            "_id": "66cd5b10ffc8f72128b3691f",
+            "allow_negotiations": true,
+            "handle": "@prodby_shrishti"
+          },
+          "producer": {
+            "store": {
+              "general": { "name": "prodby_shrishti" },
+              "brand": {
+                "picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/images/brands/7f1a182e-b789-4777-9864-e1f31122243f.jpg"
+              }
+            },
+            "_id": "66d3d254ffc8f72128c53bb4",
+            "user": "66cd5b10ffc8f72128b3691f",
+            "is_verfied": false,
+            "tiers": ["tier0", "tier2"]
+          },
+          "prices": [
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 20,
+                "master_right": 20
+              },
+              "_id": "67ee897060cebe93b1ad08ed",
+              "beat": "67ee897060cebe93b1ad08ea",
+              "licence": "61ae8d9596a68cd4a8173d56",
+              "regular": 1999,
+              "final_price": 1999,
+              "number_of_recordings": 3,
+              "licence_period_in_year": 2
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 20,
+                "master_right": 20
+              },
+              "_id": "67ee897060cebe93b1ad08ec",
+              "beat": "67ee897060cebe93b1ad08ea",
+              "licence": "61ae8d9596a68cd4a8173d55",
+              "regular": 999,
+              "final_price": 999,
+              "number_of_recordings": 3,
+              "licence_period_in_year": 2
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 20,
+                "master_right": 20
+              },
+              "_id": "67ee897060cebe93b1ad08ee",
+              "beat": "67ee897060cebe93b1ad08ea",
+              "licence": "61ae8d9596a68cd4a8173d58",
+              "regular": 9999,
+              "final_price": 9999
+            }
+          ],
+          "available_coupons": []
+        },
+        {
+          "_id": "67e2871b9418f1ef047d6db0",
+          "serial_number": 186944,
+          "title": "Vibe",
+          "category": "beat",
+          "mood": ["bouncy", "exotic", "gloomy"],
+          "genre": "dancehall",
+          "key": "b_minor",
+          "tempo": 96,
+          "instrument": [
+            "acoustic_guitar",
+            "synthesizer",
+            "piano",
+            "electric_guitar"
+          ],
+          "tag": ["Guitar", "chill", "bouncy"],
+          "preview": "https://illpeoplemusic-v2-beats-dev.s3.ap-south-1.amazonaws.com/user-624b359ee97f946240ef15c9/beat-186944/preview.mp3",
+          "cover_picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/beats/user-624b359ee97f946240ef15c9/beat-186944/cover-picture.jpg",
+          "is_used_sample": false,
+          "owner": "624b359ee97f946240ef15c9",
+          "play_count": 588,
+          "disable_mp3_download": false,
+          "allow_negotiations": false,
+          "used_samples": [],
+          "id": "67e2871b9418f1ef047d6db0",
+          "created_by": {
+            "_id": "624b359ee97f946240ef15c9",
+            "handle": "@k28",
+            "allow_negotiations": true
+          },
+          "producer": {
+            "store": {
+              "general": { "name": "K28" },
+              "brand": {
+                "picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/images/brands/15553e62-47b1-4055-98a7-910ddf76768b.jpg"
+              }
+            },
+            "_id": "624b35eee97f946240ef15d6",
+            "user": "624b359ee97f946240ef15c9",
+            "is_verfied": false,
+            "tiers": ["tier0", "tier2"]
+          },
+          "prices": [
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 50,
+                "master_right": 50
+              },
+              "_id": "67e2871b9418f1ef047d6db2",
+              "beat": "67e2871b9418f1ef047d6db0",
+              "licence": "61ae8d9596a68cd4a8173d55",
+              "regular": 999,
+              "final_price": 999,
+              "number_of_recordings": 1,
+              "licence_period_in_year": 3
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 50,
+                "master_right": 50
+              },
+              "_id": "67e2871b9418f1ef047d6db3",
+              "beat": "67e2871b9418f1ef047d6db0",
+              "licence": "61ae8d9596a68cd4a8173d56",
+              "regular": 3999,
+              "final_price": 3999,
+              "number_of_recordings": 1,
+              "licence_period_in_year": 3
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 10,
+                "master_right": 10
+              },
+              "_id": "67e2871b9418f1ef047d6db4",
+              "beat": "67e2871b9418f1ef047d6db0",
+              "licence": "61ae8d9596a68cd4a8173d58",
+              "regular": 24999,
+              "final_price": 24999
+            }
+          ],
+          "available_coupons": []
+        },
+        {
+          "_id": "67e7d0d88ed310a871cb0f8b",
+          "serial_number": 187538,
+          "title": "Mafia",
+          "category": "beat",
+          "mood": ["bouncy", "dramatic", "sad"],
+          "genre": "drill",
+          "key": "d_sharp__minor",
+          "tempo": 144,
+          "instrument": ["acoustic_guitar", "guitar"],
+          "tag": ["sad drill", "drill beat ", "melodic beat"],
+          "preview": "https://illpeoplemusic-v2-beats-dev.s3.ap-south-1.amazonaws.com/user-66cd5b10ffc8f72128b3691f/beat-187538/preview.mp3",
+          "cover_picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/beats/user-66cd5b10ffc8f72128b3691f/beat-187538/cover-picture.png",
+          "is_used_sample": false,
+          "owner": "66cd5b10ffc8f72128b3691f",
+          "play_count": 489,
+          "disable_mp3_download": false,
+          "allow_negotiations": false,
+          "used_samples": [],
+          "id": "67e7d0d88ed310a871cb0f8b",
+          "created_by": {
+            "_id": "66cd5b10ffc8f72128b3691f",
+            "allow_negotiations": true,
+            "handle": "@prodby_shrishti"
+          },
+          "producer": {
+            "store": {
+              "general": { "name": "prodby_shrishti" },
+              "brand": {
+                "picture": "https://illpeoplemusic-v2-asserts-dev.s3.ap-south-1.amazonaws.com/images/brands/7f1a182e-b789-4777-9864-e1f31122243f.jpg"
+              }
+            },
+            "_id": "66d3d254ffc8f72128c53bb4",
+            "user": "66cd5b10ffc8f72128b3691f",
+            "is_verfied": false,
+            "tiers": ["tier0", "tier2"]
+          },
+          "prices": [
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 20,
+                "master_right": 20
+              },
+              "_id": "67e7d0d88ed310a871cb0f8e",
+              "beat": "67e7d0d88ed310a871cb0f8b",
+              "licence": "61ae8d9596a68cd4a8173d56",
+              "regular": 1999,
+              "final_price": 1999,
+              "number_of_recordings": 4,
+              "licence_period_in_year": 2
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 20,
+                "master_right": 20
+              },
+              "_id": "67e7d0d88ed310a871cb0f8d",
+              "beat": "67e7d0d88ed310a871cb0f8b",
+              "licence": "61ae8d9596a68cd4a8173d55",
+              "regular": 999,
+              "final_price": 999,
+              "number_of_recordings": 4,
+              "licence_period_in_year": 2
+            },
+            {
+              "discount": { "value": 0, "quantifier": "percentage" },
+              "royalty_in_percentage": {
+                "publishing_right": 20,
+                "master_right": 20
+              },
+              "_id": "67e7d0d88ed310a871cb0f8f",
+              "beat": "67e7d0d88ed310a871cb0f8b",
+              "licence": "61ae8d9596a68cd4a8173d58",
+              "regular": 4999,
+              "final_price": 4999
+            }
+          ],
+          "available_coupons": []
+        }
+      ]
+    }
+  ]
+}

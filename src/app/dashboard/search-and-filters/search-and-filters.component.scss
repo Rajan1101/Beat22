@@ -1,0 +1,234 @@
+.container {
+  margin-bottom: 40px;
+  .search-and-toggle {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.4rem 1rem 0;
+    border-radius: 8px;
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+      background-color: #303030;
+      border: 1px solid #616161;
+      border-radius: 6px;
+      padding: 0.5rem 1rem;
+      width: 100%;
+      max-width: 282px;
+      height: 30px;
+
+      .search-icon {
+        color: #fff;
+        margin-right: 0.5rem;
+      }
+
+      input {
+        flex: 1;
+        background: transparent;
+        border: none;
+        font-family: Manrope, sans-serif !important;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 0.9rem;
+        line-height: 19px;
+        letter-spacing: 0.05rem;
+        color: #8a8a8a;
+        margin-left: 12px;
+
+        &::placeholder {
+          color: #888;
+        }
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    .toggle-buttons {
+      display: flex;
+      background-color: #2c2c2c;
+      border-radius: 1rem;
+
+      .toggle-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        background-color: #2c2c2c;
+        border-color: transparent;
+        border-radius: 50%;
+        cursor: pointer;
+        color: #d3d3d3a3;
+
+        .icon {
+          font-size: 0.9rem;
+        }
+
+        &.active {
+          background-color: #616161;
+          border-color: transparent;
+
+          .icon {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .filters {
+    position: sticky;
+    top: 106px;
+    z-index: 998;
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-top: 20px;
+    color: #8a8a8a;
+    font-size: 0.8rem;
+    padding-right: 1.5rem;
+
+    .filter-dropdown {
+      position: relative;
+
+      .filter-name {
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: #8a8a8a;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        i {
+          font-size: 0.7rem;
+          color: #8a8a8a;
+        }
+      }
+
+      .dropdown-modal {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        background-color: #303030;
+        border: 1px solid #616161;
+        border-radius: 8px;
+        padding: 1rem;
+        width: 200px;
+        z-index: 10;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+        .search-input {
+          display: flex;
+          align-items: center;
+          background-color: #262626;
+          border: 1px solid #616161;
+          border-radius: 6px;
+          padding: 0.5rem;
+          margin-bottom: 1rem;
+
+          input {
+            flex: 1;
+            background: transparent;
+            border: none;
+            color: #fff;
+            font-size: 0.9rem;
+
+            &::placeholder {
+              color: #888;
+            }
+
+            &:focus {
+              outline: none;
+            }
+          }
+
+          i {
+            color: #888;
+            position: relative;
+            right: 13px;
+          }
+        }
+
+        .dropdown-options {
+          .dropdown-option {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+
+            input[type="checkbox"] {
+              accent-color: #8a2be2;
+            }
+
+            label {
+              font-size: 0.9rem;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+
+    .sort-by {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      position: relative;
+
+      .sort-label {
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: #8a8a8a;
+      }
+
+      .sort-name {
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        i {
+          font-size: 0.7rem;
+          color: #8a8a8a;
+        }
+      }
+
+      .dropdown-modal {
+        position: absolute;
+        top: 30px;
+        right: 0;
+        background-color: #303030;
+        border: 1px solid #616161;
+        border-radius: 8px;
+        padding: 1rem;
+        width: 55px;
+        z-index: 10;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+        .dropdown-options {
+          .dropdown-option {
+            font-size: 0.9rem;
+            color: #fff;
+            padding: 0.5rem 0;
+            cursor: pointer;
+
+            &:hover {
+              background-color: #404040;
+            }
+          }
+        }
+      }
+    }
+  }
+}

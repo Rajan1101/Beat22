@@ -1,0 +1,29 @@
+<div class="container">
+
+  <div class="loader-overlay" *ngIf="isLoading">
+    <div class="spinner"></div>
+  </div>
+
+  <div class="explore">
+    <div class="heading-text">
+      Explore <span class="theme-color">Beats</span>
+    </div>
+    <div class="refresh-button">Refresh</div>
+  </div>
+
+  <div class="diff-beat-filter">
+    <div
+      *ngFor="let filter of filters"
+      class="filter-button"
+      [ngClass]="filter.class"
+      [class.active]="selectedFilter === filter.key"
+      (click)="selectFilter(filter.key)"
+    >
+      {{ filter.label }}
+    </div>
+  </div>
+
+  <app-search-and-filters (viewChange)="onViewChange($event)"></app-search-and-filters>
+  <app-record-list *ngIf="isListView" [data]="beatsData"></app-record-list>
+  <app-record-grid *ngIf="!isListView" [data]="beatsData"></app-record-grid>
+</div>

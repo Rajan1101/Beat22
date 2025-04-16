@@ -1,0 +1,68 @@
+<div class="container">
+  <div class="search-and-toggle">
+    <div class="search-bar">
+      <span class="search-icon"><i class="fa fa-search"></i></span>
+      <input type="text" placeholder="Search top beats" />
+    </div>
+
+    <div class="toggle-buttons">
+      <button
+        class="toggle-button list-view"
+        [class.active]="isListView"
+        (click)="toggleView('list')"
+      >
+        <span class="icon">&#9776;</span>
+      </button>
+      <button
+        class="toggle-button grid-view"
+        [class.active]="!isListView"
+        (click)="toggleView('grid')"
+      >
+        <span class="icon">&#9634;</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="filters">
+    <span class="filters-label">Filters:</span>
+    <div class="filter-dropdown" *ngFor="let filter of filterOptions">
+      <span class="filter-name" (click)="toggleDropdown(filter.name)">
+        {{ filter.name }}
+        <i class="fa fa-chevron-down"></i>
+      </span>
+
+      <div class="dropdown-modal" *ngIf="activeDropdown === filter.name">
+        <div class="search-input">
+          <input type="text" placeholder="Search" />
+          <i class="fa fa-search"></i>
+        </div>
+        <div class="dropdown-options">
+          <div *ngFor="let option of filter.options" class="dropdown-option">
+            <input type="checkbox" [id]="option" />
+            <label [for]="option">{{ option }}</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sort-by">
+      <span class="sort-label">Sort by:</span>
+      <span class="sort-name" (click)="toggleSortDropdown()">
+        {{ selectedSortOption }}
+        <i class="fa fa-chevron-down"></i>
+      </span>
+
+      <div class="dropdown-modal" *ngIf="isSortDropdownOpen">
+        <div class="dropdown-options">
+          <div
+            *ngFor="let sortOption of sortOptions"
+            class="dropdown-option"
+            (click)="selectSortOption(sortOption)"
+          >
+            {{ sortOption }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

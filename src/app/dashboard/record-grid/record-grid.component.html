@@ -1,0 +1,42 @@
+<div class="record-grid">
+  <div class="grid-item" *ngFor="let record of data">
+    <div class="image-container">
+      <img [src]="record.image" alt="Record Image" class="record-image" />
+      <button class="play-button">
+        <i class="fa fa-play"></i>
+      </button>
+    </div>
+
+    <div class="details">
+      <div class="bpm-and-price">
+        <span class="bpm">
+          <i class="fa fa-music"></i> {{ record.bpm }} B...
+        </span>
+        <span class="price">
+          <i class="fa fa-shopping-cart"></i> ₹{{ record.price }}
+        </span>
+      </div>
+      <div class="details-container">
+        <div class="names">
+          <div class="title">{{ record.title }}</div>
+          <div class="artist">{{ record.genre }}</div>
+        </div>
+        <div class="icon">
+          <div class="more-options-container">
+            <button class="more-options" (click)="toggleOptions(record)">
+              <i class="fa fa-ellipsis-v"></i>
+            </button>
+            <div class="options-dropdown" *ngIf="record.showOptions">
+              <div class="option-item">
+                <i class="fa fa-share-alt"></i> Share
+              </div>
+              <div class="option-item">
+                <i class="fa fa-heart"></i> Favorite
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
