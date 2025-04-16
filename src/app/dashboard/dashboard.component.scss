@@ -61,7 +61,28 @@
 
   .diff-beat-filter {
     display: flex;
-    gap: 1rem;
+    gap: 12px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 0.5rem;
+    scrollbar-width: thin;
+    scrollbar-color: #998b8b00 transparent;
+
+    &::-webkit-scrollbar {
+      width: 1px;
+      height: 1px;
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #998b8b;
+      border-radius: 1px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+      border-radius: 8px;
+    }
 
     .filter-button {
       padding: 0.5rem 1.2rem;
@@ -70,7 +91,6 @@
       background: #262626;
       border: 1px solid #383838;
       border-radius: 32px;
-      transition: background-color 0.3s, color 0.3s;
 
       &.first-button.active,
       &.first-button:hover {
@@ -91,6 +111,33 @@
       &.forth-button:hover {
         background: linear-gradient(90deg, #ff7e15 0%, #ffca51 100%);
       }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    .explore {
+      .heading-text {
+        font-size: 1rem;
+      }
+      .refresh-button {
+        width: 80px;
+        height: 30px;
+        font-size: 0.8rem;
+      }
+    }
+    .diff-beat-filter {
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    .explore {
+      padding: 30px 0 30px 0;
     }
   }
 }

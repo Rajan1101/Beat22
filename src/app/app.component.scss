@@ -56,3 +56,31 @@
     }
   }
 }
+
+@media (max-width: 1020px) {
+  .container{
+
+    .beat-heading{
+      padding-top: 40px;
+        background-color: #1e1e1e;
+        top: 5rem;
+    }
+
+    app-dashboard{
+      position: relative;
+      top: 1rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .beat-heading {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    padding: 0 10px;
+  }
+}

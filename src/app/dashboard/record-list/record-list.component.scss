@@ -71,7 +71,7 @@
           display: flex;
           gap: 0.8rem;
           margin-top: 0.3rem;
-          .bpm-key{
+          .bpm-key {
             color: #fff;
             .beat-img {
               width: 12px;
@@ -80,7 +80,6 @@
               margin-right: 0.2rem;
             }
           }
-
         }
       }
     }
@@ -170,10 +169,94 @@
 
     &:hover {
       background-color: #2d2d2d;
-      .record-left{
+      .record-left {
         .play-button {
           color: #fff;
           background: linear-gradient(110deg, #7000ff 36.5%, #8f00ff 93.9%);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1020px) {
+  .record-list {
+    .record-item {
+      .record-left {
+        .record-details {
+          .record-info {
+            .bpm-key {
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+          }
+        }
+      }
+      .record-right {
+        .tags {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .record-list {
+    .record-item {
+      position: relative;
+
+      .record-left {
+        .play-button {
+          display: none;
+        }
+        .record-details{
+          .record-info{
+            .key{
+              display: none;
+            }
+
+          }
+        }
+      }
+
+      &:hover {
+        .record-left {
+          .play-button {
+            display: block;
+            position: absolute;
+            top: 35%;
+            left: 4%;
+            opacity: 0;
+            z-index: 10;
+            opacity: 1;
+            color: #000;
+            background: #fff !important;
+          }
+
+          .record-image {
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 564px){
+  .record-list {
+    .record-item {
+      position: relative;
+
+      .record-left {
+        .record-details{
+          .record-info{
+            .bpm-key{
+              display: none;
+            }
+
+          }
         }
       }
     }

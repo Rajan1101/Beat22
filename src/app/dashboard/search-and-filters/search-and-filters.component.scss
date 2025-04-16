@@ -231,4 +231,39 @@
       }
     }
   }
+
+  .filters-small {
+    display: none;
+  }
+}
+
+@media (max-width: 1020px) {
+  .container {
+    .filters {
+      display: none;
+    }
+    .filters-small {
+      display: block;
+      position: sticky;
+      top: 106px;
+      z-index: 998;
+      background-color: #1e1e1e;
+      color: #8a8a8a;
+      font-size: 0.8rem;
+      border: 1px solid #616161;
+      width: 4rem;
+      padding: 6px 8px;
+      margin-top: 1rem;
+      border-radius: 3px;
+
+    }
+  }
+}
+
+@media (max-width: 540px){
+  .container{
+    .search-and-toggle{
+      padding: 1rem 0 1rem 0;
+    }
+  }
 }
