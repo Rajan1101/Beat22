@@ -51,6 +51,7 @@
       display: flex;
       background-color: #2c2c2c;
       border-radius: 1rem;
+      margin-left: 2rem;
 
       .toggle-button {
         display: flex;
@@ -255,14 +256,13 @@
       padding: 6px 8px;
       margin-top: 1rem;
       border-radius: 3px;
-
     }
   }
 }
 
-@media (max-width: 540px){
-  .container{
-    .search-and-toggle{
+@media (max-width: 540px) {
+  .container {
+    .search-and-toggle {
       padding: 1rem 0 1rem 0;
     }
   }
